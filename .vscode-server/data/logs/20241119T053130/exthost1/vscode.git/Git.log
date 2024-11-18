@@ -1,0 +1,100 @@
+2024-11-19 05:31:31.952 [info] [main] Log level: Info
+2024-11-19 05:31:31.952 [info] [main] Validating found git in: "git"
+2024-11-19 05:31:31.952 [info] [main] Using git "2.43.0" from "git"
+2024-11-19 05:31:31.952 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-19 05:31:31.952 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-19 05:31:31.952 [info] > git rev-parse --git-dir --git-common-dir [23ms]
+2024-11-19 05:31:31.952 [info] [Model][openRepository] Opened repository: /root
+2024-11-19 05:31:31.953 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-19 05:31:31.954 [info] > git config --get commit.template [5ms]
+2024-11-19 05:31:31.961 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-19 05:31:31.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-11-19 05:31:31.965 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:31:31.974 [info] > git status -z -uall [7ms]
+2024-11-19 05:31:31.974 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-19 05:31:31.977 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-19 05:31:31.987 [info] > git show --textconv HEAD:.gitconfig [7ms]
+2024-11-19 05:31:31.988 [info] > git ls-tree -l HEAD -- /root/.gitconfig [4ms]
+2024-11-19 05:31:31.988 [info] fatal: Not a valid object name HEAD
+2024-11-19 05:31:31.996 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [26ms]
+2024-11-19 05:31:32.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-11-19 05:31:32.023 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:31:32.024 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-11-19 05:31:32.025 [info] > git config --get commit.template [3ms]
+2024-11-19 05:31:32.164 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n667 --follow -- /root/.gitconfig [131ms]
+2024-11-19 05:31:32.165 [info] fatal: your current branch 'master' does not have any commits yet
+2024-11-19 05:31:32.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [144ms]
+2024-11-19 05:31:32.173 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:31:32.178 [info] > git ls-tree -l HEAD -- /root/.gitconfig [15ms]
+2024-11-19 05:31:32.178 [info] fatal: Not a valid object name HEAD
+2024-11-19 05:31:32.179 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-19 05:31:32.181 [info] > git status -z -uall [7ms]
+2024-11-19 05:31:32.459 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n667 --follow -- /root/.gitconfig [13ms]
+2024-11-19 05:31:32.460 [info] fatal: your current branch 'master' does not have any commits yet
+2024-11-19 05:31:32.493 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-19 05:31:34.694 [info] > git config --get commit.template [5ms]
+2024-11-19 05:31:34.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-19 05:31:34.695 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:31:34.703 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-19 05:31:34.713 [info] > git status -z -uall [15ms]
+2024-11-19 05:31:38.839 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-19 05:31:39.740 [info] > git config --get commit.template [2ms]
+2024-11-19 05:31:39.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-19 05:31:39.740 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:31:39.745 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-19 05:31:39.748 [info] > git status -z -uall [6ms]
+2024-11-19 05:31:44.767 [info] > git config --get commit.template [1ms]
+2024-11-19 05:31:44.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-19 05:31:44.773 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:31:44.781 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-19 05:31:44.785 [info] > git status -z -uall [9ms]
+2024-11-19 05:31:49.814 [info] > git config --get commit.template [5ms]
+2024-11-19 05:31:49.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-19 05:31:49.814 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:31:49.823 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-19 05:31:49.828 [info] > git status -z -uall [11ms]
+2024-11-19 05:31:54.558 [info] > git ls-tree -l HEAD -- /root/.gitconfig [3ms]
+2024-11-19 05:31:54.559 [info] fatal: Not a valid object name HEAD
+2024-11-19 05:31:54.873 [info] > git config --get commit.template [6ms]
+2024-11-19 05:31:54.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-19 05:31:54.884 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:31:54.904 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-19 05:31:54.917 [info] > git status -z -uall [25ms]
+2024-11-19 05:32:02.770 [info] > git ls-tree -l HEAD -- /root/.gitconfig [8ms]
+2024-11-19 05:32:02.771 [info] fatal: Not a valid object name HEAD
+2024-11-19 05:32:02.772 [info] > git config --get commit.template [2ms]
+2024-11-19 05:32:02.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-19 05:32:02.775 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:32:02.780 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-19 05:32:02.783 [info] > git status -z -uall [6ms]
+2024-11-19 05:32:14.030 [info] > git ls-tree -l HEAD -- /root/.gitconfig [7ms]
+2024-11-19 05:32:14.030 [info] fatal: Not a valid object name HEAD
+2024-11-19 05:32:14.031 [info] > git config --get commit.template [2ms]
+2024-11-19 05:32:14.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-19 05:32:14.037 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:32:14.045 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-19 05:32:14.052 [info] > git status -z -uall [12ms]
+2024-11-19 05:32:15.952 [info] > git config --get commit.template [3ms]
+2024-11-19 05:32:15.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-19 05:32:15.952 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:32:15.957 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-19 05:32:15.960 [info] > git status -z -uall [6ms]
+2024-11-19 05:32:19.102 [info] > git config --get commit.template [5ms]
+2024-11-19 05:32:19.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-19 05:32:19.103 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:32:19.112 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-19 05:32:19.118 [info] > git status -z -uall [11ms]
+2024-11-19 05:32:21.059 [info] > git ls-tree -l HEAD -- /root/.gitconfig [2ms]
+2024-11-19 05:32:21.059 [info] fatal: Not a valid object name HEAD
+2024-11-19 05:32:24.147 [info] > git config --get commit.template [3ms]
+2024-11-19 05:32:24.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-19 05:32:24.153 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:32:24.165 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-19 05:32:24.174 [info] > git status -z -uall [16ms]
+2024-11-19 05:32:30.832 [info] > git ls-tree -l HEAD -- /root/.gitconfig [15ms]
+2024-11-19 05:32:30.832 [info] fatal: Not a valid object name HEAD
+2024-11-19 05:32:30.835 [info] > git config --get commit.template [4ms]
+2024-11-19 05:32:30.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-19 05:32:30.845 [warning] [Git][getBranch] No such branch: master
+2024-11-19 05:32:30.857 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-19 05:32:30.860 [info] > git status -z -uall [8ms]

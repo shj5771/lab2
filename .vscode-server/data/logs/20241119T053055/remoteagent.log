@@ -1,0 +1,11 @@
+2024-11-19 05:30:55.433 [info] 
+
+
+
+
+2024-11-19 05:30:55.441 [info] Extension host agent started.
+2024-11-19 05:30:55.486 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2024-11-19 05:30:55.509 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2024-11-19 05:30:55.606 [info] [127.0.0.1][5b20e536][ManagementConnection] New connection established.
+2024-11-19 05:30:55.807 [info] [127.0.0.1][9475d94d][ExtensionHostConnection] New connection established.
+2024-11-19 05:30:56.376 [info] [127.0.0.1][9475d94d][ExtensionHostConnection] <14824> Launched Extension Host Process.

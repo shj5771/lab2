@@ -1,0 +1,56 @@
+2024-11-19 05:30:57.235 [info] [main] Log level: Info
+2024-11-19 05:30:57.235 [info] [main] Validating found git in: "git"
+2024-11-19 05:30:57.235 [info] [main] Using git "2.43.0" from "git"
+2024-11-19 05:30:57.235 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-19 05:30:57.235 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-19 05:30:57.235 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-11-19 05:30:57.235 [info] [Model][openRepository] Opened repository: /root/.ssh/lab2
+2024-11-19 05:30:57.235 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-19 05:30:57.237 [info] > git config --get commit.template [3ms]
+2024-11-19 05:30:57.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-19 05:30:57.250 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.ssh/lab2/.git/refs/remotes/origin/main'
+2024-11-19 05:30:57.251 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-19 05:30:57.260 [info] > git status -z -uall [5ms]
+2024-11-19 05:30:57.261 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-19 05:30:57.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-11-19 05:30:57.294 [info] > git config --get commit.template [4ms]
+2024-11-19 05:30:57.294 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-11-19 05:30:57.294 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-19 05:30:57.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [75ms]
+2024-11-19 05:30:57.374 [info] > git reflog main --grep-reflog=branch: Created from *. [77ms]
+2024-11-19 05:30:57.379 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.ssh/lab2/.git/refs/remotes/origin/main'
+2024-11-19 05:30:57.380 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-19 05:30:57.384 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-11-19 05:30:57.387 [info] > git status -z -uall [5ms]
+2024-11-19 05:30:57.387 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-19 05:30:57.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-19 05:30:57.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2024-11-19 05:30:57.397 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-11-19 05:30:57.397 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-19 05:30:57.400 [info] > git config --local branch.main.vscode-merge-base origin/main [4ms]
+2024-11-19 05:30:57.403 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-11-19 05:30:57.405 [info] > git config --get commit.template [3ms]
+2024-11-19 05:30:57.406 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-11-19 05:30:57.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-11-19 05:30:57.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-19 05:30:57.413 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.ssh/lab2/.git/refs/remotes/origin/main'
+2024-11-19 05:30:57.414 [info] > git config --local branch.main.vscode-merge-base origin/main [2ms]
+2024-11-19 05:30:57.427 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2024-11-19 05:30:57.441 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2024-11-19 05:30:57.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-11-19 05:30:57.446 [info] > git config --get commit.template [29ms]
+2024-11-19 05:30:57.447 [info] > git diff --name-status -z --diff-filter=ADMR 97220e2ecd25c85c3a2b40d3ef8c54f392f41f7b...refs/remotes/origin/main [3ms]
+2024-11-19 05:30:57.450 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-11-19 05:30:57.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-19 05:30:57.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-11-19 05:30:57.456 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.ssh/lab2/.git/refs/remotes/origin/main'
+2024-11-19 05:30:57.456 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-19 05:30:57.460 [info] > git status -z -uall [2ms]
+2024-11-19 05:30:57.460 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-19 05:30:57.776 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-19 05:30:58.526 [info] > git config --get commit.template [3ms]
+2024-11-19 05:30:58.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-19 05:30:58.530 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.ssh/lab2/.git/refs/remotes/origin/main'
+2024-11-19 05:30:58.531 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-19 05:30:58.538 [info] > git status -z -uall [4ms]
+2024-11-19 05:30:58.540 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
